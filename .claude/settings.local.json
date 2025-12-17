@@ -3,7 +3,9 @@
     "allow": [
       "WebSearch",
       "Bash(cabal build:*)",
-      "Bash(cabal run)"
+      "Bash(cabal run)",
+      "Bash(ghcup list:*)",
+      "Bash(git rm:*)"
     ]
   }
 }
