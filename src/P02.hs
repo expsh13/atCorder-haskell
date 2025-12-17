@@ -2,5 +2,8 @@ module P02 where
 
 main :: IO ()
 main = do
-  -- TODO: 問題の入出力処理を実装
-  putStrLn "P02"
+  [a, b] <- map (read :: String -> Int) . words <$> getLine
+  let multi = a * b
+  if even multi
+    then putStrLn "Even"
+    else putStrLn "Odd"
