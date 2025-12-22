@@ -5,7 +5,11 @@
       "Bash(cabal build:*)",
       "Bash(cabal run)",
       "Bash(ghcup list:*)",
-      "Bash(git rm:*)"
+      "Bash(git rm:*)",
+      "mcp__ide__getDiagnostics",
+      "Bash(cabal run:*)",
+      "Bash(ghci:*)",
+      "Bash(echo:*)"
     ]
   },
   "outputStyle": "Learning"
