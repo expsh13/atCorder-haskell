@@ -68,6 +68,16 @@ library
                     , P08
                     , P09
                     , P10
+                    , P11
+                    , P12
+                    , P13
+                    , P14
+                    , P15
+                    , P16
+                    , P17
+                    , P18
+                    , P19
+                    , P20
 
     -- Other library packages from which modules are imported.
     build-depends:    base ^>=4.18.3.0
