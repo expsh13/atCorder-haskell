@@ -9,7 +9,8 @@
       "mcp__ide__getDiagnostics",
       "Bash(cabal run:*)",
       "Bash(ghci:*)",
-      "Bash(echo:*)"
+      "Bash(echo:*)",
+      "Bash(ghc:*)"
     ]
   },
   "outputStyle": "Learning"
